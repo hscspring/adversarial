@@ -38,7 +38,7 @@
 | --------------- | ------ | ------ | ------ |
 | Base（TextCNN） | 0.8567 | 0.8608 | 0.8573 |
 | FGSM            | 0.8752 | 0.8710 | 0.8709 |
-| PGD             |        |        |        |
+| PGD             | 0.8552 | 0.8585 | 0.8551 |
 | Free            | 0.8520 | 0.8508 | 0.8481 |
 
 ## 使用方法
@@ -174,22 +174,22 @@ Confusion Matrix...
 
 ```bash
 Epoch [1/20]
-Iter:      0,  Train Loss:   2.3,  Train Acc: 10.94%,  Val Loss:   2.5,  Val Acc:  8.60%,  Time: 0:00:07 *
-Iter:    100,  Train Loss:  0.87,  Train Acc: 73.44%,  Val Loss:  0.66,  Val Acc: 79.50%,  Time: 0:05:03 *
+Iter:      0,  Train Loss:   2.3,  Train Acc: 10.94%,  Val Loss:   2.5,  Val Acc:  8.60%,  Time: 0:00:04 *
+Iter:    100,  Train Loss:  0.87,  Train Acc: 73.44%,  Val Loss:  0.66,  Val Acc: 79.50%,  Time: 0:03:35 *
 Epoch [2/20]
-Iter:    200,  Train Loss:  0.55,  Train Acc: 82.81%,  Val Loss:  0.55,  Val Acc: 83.30%,  Time: 0:10:07 *
+Iter:    200,  Train Loss:  0.55,  Train Acc: 82.81%,  Val Loss:  0.55,  Val Acc: 83.30%,  Time: 0:06:58 *
 Epoch [3/20]
-Iter:    300,  Train Loss:  0.42,  Train Acc: 88.28%,  Val Loss:  0.51,  Val Acc: 84.40%,  Time: 0:13:39 *
-Iter:    400,  Train Loss:  0.36,  Train Acc: 89.06%,  Val Loss:  0.49,  Val Acc: 84.10%,  Time: 0:17:20 *
+Iter:    300,  Train Loss:  0.42,  Train Acc: 88.28%,  Val Loss:  0.51,  Val Acc: 84.40%,  Time: 0:10:23 *
+Iter:    400,  Train Loss:  0.36,  Train Acc: 89.06%,  Val Loss:  0.49,  Val Acc: 84.10%,  Time: 0:13:52 *
 Epoch [4/20]
-Iter:    500,  Train Loss:  0.32,  Train Acc: 88.28%,  Val Loss:   0.5,  Val Acc: 84.60%,  Time: 0:21:02
+Iter:    500,  Train Loss:  0.32,  Train Acc: 88.28%,  Val Loss:   0.5,  Val Acc: 84.60%,  Time: 0:17:48
 Epoch [5/20]
-Iter:    600,  Train Loss:  0.17,  Train Acc: 94.53%,  Val Loss:  0.49,  Val Acc: 84.60%,  Time: 0:24:46 *
-Iter:    700,  Train Loss:  0.24,  Train Acc: 92.19%,  Val Loss:  0.51,  Val Acc: 84.30%,  Time: 0:28:40
+Iter:    600,  Train Loss:  0.17,  Train Acc: 94.53%,  Val Loss:  0.49,  Val Acc: 84.60%,  Time: 0:22:17 *
+Iter:    700,  Train Loss:  0.24,  Train Acc: 92.19%,  Val Loss:  0.51,  Val Acc: 84.30%,  Time: 0:27:21
 Epoch [6/20]
-Iter:    800,  Train Loss:  0.13,  Train Acc: 98.44%,  Val Loss:  0.53,  Val Acc: 84.20%,  Time: 0:32:17
+Iter:    800,  Train Loss:  0.13,  Train Acc: 98.44%,  Val Loss:  0.53,  Val Acc: 84.20%,  Time: 0:31:28
 Epoch [7/20]
-Iter:    900,  Train Loss:  0.13,  Train Acc: 96.88%,  Val Loss:  0.52,  Val Acc: 85.70%,  Time: 0:35:49
+Iter:    900,  Train Loss:  0.13,  Train Acc: 96.88%,  Val Loss:  0.52,  Val Acc: 85.70%,  Time: 0:35:18
 No optimization for a long time, auto-stopping...
 Test Loss:  0.46,  Test Acc: 85.60%
 Precision, Recall and F1-Score...
